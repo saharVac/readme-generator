@@ -17,6 +17,26 @@ const questions = [
     message: "What's your project title?"
   },
   {
+    type: 'input',
+    name: 'description',
+    message: "Describe your project"
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: "How should a user install it?"
+  },
+  {
+    type: 'input',
+    name: 'credits',
+    message: "Enter credits"
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: "How does one use the application?"
+  },
+  {
     type: 'list',
     name: 'license',
     message: "What kind of license would you like?",

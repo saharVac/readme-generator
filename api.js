@@ -2,7 +2,8 @@
 
 const api = {
   getUser(username) {
-
+    // check for an error
+    
   }
 };
 
