@@ -1,10 +1,8 @@
-// function to generate markdown for README
-function generateMarkdown(data, username) {
-  return `# ${data.title}
+# s
 
 
   ## Description
-  ${data.description}
+  s
 
 
   ## Table of Contents
@@ -15,33 +13,29 @@ function generateMarkdown(data, username) {
 
 
   ## Installation
-  ${data.installation}
+  s
 
 
   ## Credits
-  ${data.credits}
+  s
 
 
   ## Usage
-  ${data.usage}
+  s
 
 
   ## Testing
-  ${data.testing}
+  s
 
 
   ## Questions
-  [link to my GitHub!](https://github.com/${username})
+  [link to my GitHub!](https://github.com/saharVac)
   
 
 
   ## License
-  ${data.license}
+  MIT
 
 
   <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-`;
-}
-
-module.exports = generateMarkdown;

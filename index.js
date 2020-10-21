@@ -5,10 +5,6 @@ const userExists = require("./api.js");
 const api = require("./api.js")
 const generateMarkdown = require("./generateMarkdown.js")
 
-// variable that assures gitHub account exists
-var gitExists = false;
-let account;
-
 // Question to obtain git account
 const getGit = {
   type: 'input',
@@ -44,31 +40,45 @@ const questions = [
     message: "How does one use the application?"
   },
   {
+    type: 'input',
+    name: 'testing',
+    message: "How do users test?"
+  },
+  {
     type: 'list',
     name: 'license',
     message: "What kind of license would you like?",
-    choices: ['MIT', 'None']
+    choices: ['MIT', 'Apache', 'GNU', 'None']
   }
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
-
+  fs.writeFile(fileName, data, function(err) {
+    if (err) {
+      return console.log(err)
+    }
+  })
 }
 
 // function to initialize program
 async function init() {
+
+  // variable to hold account name
+  let name;
+  // variable that assures gitHub account exists
+  let gitExists = false;
   
   // while no proper gitHub account name is given
   while (!gitExists) {
     
     // if real account is given, gitHub account exists and we can move on
     const {github: account} = await inquirer.prompt(getGit)
-    const k = await userExists(account)
-    console.log(k)
-    if (k) {
+    name = account;
+    
+    const exists = await userExists(account)
+    if (exists) {
       gitExists = true;
-      console.log("here")
       console.log("username exists!")
     } else {
       console.log("username doesn't exist, try again")
@@ -78,11 +88,8 @@ async function init() {
   // store response
   const response = await inquirer.prompt(questions)
   // write to file
-  fs.writeFile("README.md", generateMarkdown(response, account), function(err) {
-    if (err) {
-      return console.log(err)
-    }
-  })
+  writeToFile("README.md", generateMarkdown(response, name))
+  
 }
 
 // function call to initialize program
