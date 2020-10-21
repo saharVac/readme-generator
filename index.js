@@ -45,6 +45,11 @@ const questions = [
     message: "How do users test?"
   },
   {
+    type: 'input',
+    name: 'email',
+    message: "What's your email address?"
+  },
+  {
     type: 'list',
     name: 'license',
     message: "What kind of license would you like?",

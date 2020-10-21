@@ -1,4 +1,5 @@
 # s
+  [![Generic badge](https://img.shields.io/badge/Licencse-MIT-<COLOR>.svg)](https://shields.io/)
 
 
   ## Description
@@ -6,9 +7,10 @@
 
 
   ## Table of Contents
-  - [Installation](#Installtion)
+  - [Installation](#Installation)
   - [Credits](#Credits)
   - [Usage](#Usage)
+  - [Questions](#Questions)
   - [License](#License)
 
 
@@ -29,7 +31,8 @@
 
 
   ## Questions
-  [link to my GitHub!](https://github.com/saharVac)
+  [link to my GitHub!](https://github.com/s)
+  [Email me!](mailto:s)
   
 
 
