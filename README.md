@@ -1,9 +1,9 @@
-# s
-  [![Generic badge](https://img.shields.io/badge/Licencse-MIT-<COLOR>.svg)](https://shields.io/)
+# README Generator
+  [![Generic badge](https://img.shields.io/badge/Licencse-None-<COLOR>.svg)](https://shields.io/)
 
 
   ## Description
-  s
+  An easily navigable CLI that takes user input to put together README for your project
 
 
   ## Table of Contents
@@ -15,29 +15,29 @@
 
 
   ## Installation
-  s
+  Clone it locally, run "npm install", then "node index" and follow the instructions
 
 
   ## Credits
-  s
+  Sahar Vacnich
 
 
   ## Usage
-  s
+  run "node index" and follow the instructions
 
 
   ## Testing
-  s
+  no tests yet
 
 
   ## Questions
-  [link to my GitHub!](https://github.com/s)
-  [Email me!](mailto:s)
+  [link to my GitHub!](https://github.com/saharVac)
+  [Email me!](mailto:vcsahar@gmail.com)
   
 
 
   ## License
-  MIT
+  None
 
 
   <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
