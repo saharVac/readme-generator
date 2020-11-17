@@ -93,7 +93,7 @@ async function init() {
   // store response
   const response = await inquirer.prompt(questions)
   // write to file
-  writeToFile("README.md", generateMarkdown(response, name))
+  writeToFile("./result/README.md", generateMarkdown(response, name))
   
 }
 
