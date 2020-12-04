@@ -1,5 +1,5 @@
 # README Generator
-  [![Generic badge](https://img.shields.io/badge/Licencse-None-<COLOR>.svg)](https://shields.io/)
+  ![walkthrough gif](resources/walkthrough.gif)
 
 
   ## Description
