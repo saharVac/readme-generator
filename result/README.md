@@ -1,9 +1,9 @@
-# a
-  [![Generic badge](https://img.shields.io/badge/Licencse-GNU-<COLOR>.svg)](https://shields.io/)
+# HotDawgr
+  [![Generic badge](https://img.shields.io/badge/Licencse-None-<COLOR>.svg)](https://shields.io/)
 
 
   ## Description
-  a
+  An app for dog owners to "like" and match with other dog owners. A user can sign up using their dog and their own information, sign in, and later modify account information.
 
 
   ## Table of Contents
@@ -15,30 +15,30 @@
 
 
   ## Installation
-  a
+  DELETE
 
 
   ## Credits
-  a
+  Keith Fung, Isaac Dallas, Sahar Vacnich, Ali Mahmoud, Danning Tian
 
 
   ## Usage
-  a
+  Sign up and start liking/disliking other profiles to get a match
 
 
   ## Testing
-  a
+  DELETE
 
 
   ## Questions
-  [link to my GitHub!](https://github.com/a)
+  [link to my GitHub!](https://github.com/saharVac)
   
-  [Email me!](mailto:a)
+  [Email me!](mailto:DELETE)
   
 
 
   ## License
-  GNU
+  None
 
 
   <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>

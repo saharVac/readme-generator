@@ -5,6 +5,8 @@
   ## Description
   An easily navigable CLI that takes user input to put together README for your project
 
+  ## Langauges
+  JavaScript
 
   ## Table of Contents
   - [Installation](#Installation)
